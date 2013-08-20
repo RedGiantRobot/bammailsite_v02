@@ -1,0 +1,158 @@
+.onecol, .twocol{
+  /*border: solid 1px blue;*/
+}
+
+.wrapper{
+  /*border: solid 1px red;*/
+}
+
+.price-block h2 {
+padding:0;
+margin: 0;
+color: #2ca8e0;
+/*border-bottom: 3px #2ca8e0 solid;*/
+}
+
+.price-block li{
+	margin-bottom: 5px; 
+	/*border: solid 1px green;*/
+}
+
+
+/*
+*
+*  Four-column grid active
+*  ----------------------------------------
+*  Margin   | #  1   2   3   4   |   Margin
+*  5.55555% | %  25  50  75  100 | 5.55555%
+*
+*/
+
+
+.twocol {
+	clear: both;
+	
+}
+
+.price-block {
+	text-align: center;
+	margin: 40px 0;
+}
+
+
+
+
+/* @media screen and (min-width: 640px) */
+@media screen and (min-width: 35em) {
+ .twocol {
+    
+    margin-left: 10%;
+    width: 80%; 
+  }
+
+}
+/*
+*
+*  Eight-column grid active
+*  ----------------------------------------------------------------------
+*  Margin   | #  1     2     3     4     5     6     7     8   |   Margin
+*  5.55555% | %  12.5  25.0  37.5  50.0  62.5  75.0  87.5  100 | 5.55555%
+*	
+*
+*/
+/* @media screen and (min-width: 720px) */
+@media screen and (min-width: 45em) {
+
+	.onecol {
+		margin-left: 15%;
+		width: 70%; 
+	}
+  .twocol {
+    
+    margin-left: 10%;
+    width: 80%; 
+  }
+  
+}
+/* @media screen and (min-width: 888px) */
+@media screen and (min-width: 55.5em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+  
+  } 
+  .onecol {
+		margin-left: 25%;
+		width: 50%; 
+	}
+}
+/* @media screen and (min-width: 984px) */
+@media screen and (min-width: 61.5em) {
+  body {
+    /* Reset baseline grid to 16/16 = 1.0 */
+  
+  }
+
+  
+}
+/* @media screen and (min-width: 1200px) */
+@media screen and (min-width: 75em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+  
+  }
+  .onecol {
+		margin-left: 30%;
+		width: 40%;
+	}
+   .twocol {
+    /*border: solid 1px blue;*/
+    margin-left: 25%;
+    width: 50%;
+  }
+}
+/* @media screen and (min-width: 1392px) */
+@media screen and (min-width: 87em) {
+  body {
+    /* Reset baseline grid to 16/16 = 1.0 */
+  
+  }
+
+}
+/* @media screen and (min-width: 1680px) */
+@media screen and (min-width: 105em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+  
+  }
+
+   
+}
+/*
+*
+*  Sixteen-column grid active
+*  ----------------------------------------------------------------------------------------------------------------------
+*  Margin   | #  1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16  |   Margin
+*  5.55555% | %  6.25  12.5  18.75 25.0  31.25 37.5  43.75 50.0  56.25 62.5  68.75 75.0  81.25 87.5  93.75 100 | 5.55555%
+*	
+*
+*/
+/* @media screen and (min-width: 1872px) */
+@media screen and (min-width: 117em) {
+   .twocol {
+    /*border: solid 1px red;*/
+    margin-left: 20%;
+    width: 60%;
+  }
+  
+  /*header .wrapper {
+    width: 37.5%;
+    margin-left: 25%;
+  }*/
+}
+/* @media screen and (min-width: 2080px) */
+@media screen and (min-width: 130em) {
+  body {
+    /* Zoom baseline grid to 18/16 = 1.125 */
+  
+  }
+}
